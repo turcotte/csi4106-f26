@@ -1,0 +1,59 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.egg
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.sqlite3
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+
+# Logs and temporary files
+*.log
+*.out
+*.tmp
+*.pid
+
+# Coverage / testing
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ------------------------
+# Jupyter Notebooks
+# ------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+# Large output cell checkpoints (optional but useful)
+*.nbconvert/
+
+# ------------------------
+# macOS
+# ------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.AppleDesktop
